@@ -159,11 +159,22 @@
 
 .elementor-383 .elementor-element.elementor-element-65d47070:not(.elementor-motion-effects-element-type-background),
 .elementor-383 .elementor-element.elementor-element-65d47070>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("https://metromediahouse.co/wp-content/uploads/2024/04/BG-06.jpg");
+    background: hsla(0, 0%, 100%, 1);
+
+    background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(246, 100%, 92%, 1) 41%, hsla(237, 77%, 86%, 1) 82%, hsla(247, 79%, 87%, 1) 100%);
+    
+    background: -moz-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(246, 100%, 92%, 1) 41%, hsla(237, 77%, 86%, 1) 82%, hsla(247, 79%, 87%, 1) 100%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(246, 100%, 92%, 1) 41%, hsla(237, 77%, 86%, 1) 82%, hsla(247, 79%, 87%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#DBD7FF", GradientType=1 );
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#bbcafa", endColorstr="#678bd4", GradientType=1 );
     background-position: center center;
     background-size: cover;
+    
 }
-
+/* 
 .elementor-383 .elementor-element.elementor-element-65d47070::before,
 .elementor-383 .elementor-element.elementor-element-65d47070>.elementor-background-video-container::before,
 .elementor-383 .elementor-element.elementor-element-65d47070>.e-con-inner>.elementor-background-video-container::before,
@@ -175,7 +186,7 @@
     background-position: top center;
     background-repeat: repeat-x;
     background-size: cover;
-}
+} */
 
 .elementor-383 .elementor-element.elementor-element-65d47070,
 .elementor-383 .elementor-element.elementor-element-65d47070::before {
@@ -490,7 +501,7 @@
 }
 
 .elementor-383 .elementor-element.elementor-element-8fa5995>.elementor-widget-container {
-    background-image: url("https://metromediahouse.co/wp-content/uploads/2024/04/Shape-010.png");
+    background-image: url("../images/logos/rocket.png");
     background-position: center left;
     background-repeat: no-repeat;
     background-size: contain;
